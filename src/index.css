@@ -1,0 +1,62 @@
+body {
+  background-color: skyblue;
+  padding: 20px;
+  margin: 0;
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+  font-family: "Merriweather", serif;
+  color: linen;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: lightskyblue;
+  padding: 0;
+}
+
+ul.header li a {
+  color: bisque;
+  padding: 20px;
+}
+
+.content {
+  background-color: lightseagreen;
+  padding: 20px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  color: mediumaquamarine;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  color: mediumslateblue;
+}
+
+.box {
+  color: mintcream;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
